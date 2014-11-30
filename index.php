@@ -23,15 +23,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 center whiteBackground">
-                <h1 class="center">Check The Weather In Your Area</h1>
-                <p class="lead center">Enter Your City Below To Get A Forecast</p>
+                <h1 class="center">Postcode Finder</h1>
+                <p class="lead center">Enter Any Address To Find the Postcode</p>
                 
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="city" id="city" placeholder="E.g Dubai, San Diego, Mumbai..." />
+                        <input type="text" class="form-control" name="city" id="city" placeholder="E.g 63 Fake Street, Fake Town" />
                     </div>
                     
-                    <button id="findMyWeather" class="btn btn-success btn-lg">Find My Weather</button>
+                    <button id="findMyWeather" class="btn btn-success btn-lg">Find My Postcode</button>
                 </form>
                 
                 <div id="succes" class="alert alert-success">Demo Text</div>

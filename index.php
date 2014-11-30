@@ -22,9 +22,9 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 center whiteBackground">
-                <h1 class="center">Postcode Finder</h1>
-                <p class="lead center">Enter Any Address To Find the Postcode</p>
+            <div class="col-md-6 col-md-offset-3 center">
+                <h1 class="center whiteText">Postcode Finder</h1>
+                <p class="lead center whiteText">Enter Any Address To Find the Postcode</p>
                 
                 <form>
                     <div class="form-group">

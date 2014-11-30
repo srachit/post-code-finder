@@ -28,16 +28,15 @@
                 
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="city" id="city" placeholder="E.g 63 Fake Street, Fake Town" />
+                        <input type="text" class="form-control" name="address" id="address" placeholder="E.g 63 Fake Street, Fake Town" />
                     </div>
                     
-                    <button id="findMyWeather" class="btn btn-success btn-lg">Find My Postcode</button>
+                    <button id="findMyPostcode" class="btn btn-success btn-lg">Find My Postcode</button>
                 </form>
                 
-                <div id="succes" class="alert alert-success">Demo Text</div>
-                <div id="fail" class="alert alert-danger">Please input a valid city. If your city is valid try again. If you continue to face a problem, please contact us using the form available <a href="www.srachit.com/#contact">here.</a></div>                
-                <div id="noCity" class="alert alert-danger">Please enter a city.</div> 
-                
+                <div id="success" class="alert alert-success">Demo Text</div>
+                <div id="fail" class="alert alert-danger">Could not find postcode for that address. Please try again. If you continue to face a problem, please contact us using the form available <a href="www.srachit.com/#contact">here.</a></div>                
+                <div id="fail2" class="alert alert-danger">Could not connect to server, please try again later.</div>                       
             </div>
         </div>
     </div>
